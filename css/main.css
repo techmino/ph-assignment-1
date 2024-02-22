@@ -1,0 +1,23 @@
+/* common css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header part */
+header{
+    width: 80vw;
+    background-image: url(../resources/Banner\ Image.png);
+   height: 30vw;
+   margin: auto;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+
