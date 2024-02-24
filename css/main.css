@@ -31,7 +31,7 @@ main{
 /* header part */
 header{
     width: 80vw;
-    background-image: url(../resources/Banner\ Image.png);
+    background-image: url(../resources/images/Banner\ Image.png);
    height: 35vw;
    margin: auto;
    background-repeat: no-repeat;
@@ -199,6 +199,290 @@ width: 100%;
 
 }
 
+/* offer section */
 
+.offer{
+    display: flex;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.coming-soon{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    
+}
+
+.coming-soon-wrapper h4{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.coming-soon-wrapper h3{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin: 10px 0;
+
+
+}
+.coming-soon-wrapper p{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+
+}
+
+.offer-image{
+    width: 30%;
+    padding: 20px;
+    border: 5px solid red;
+    border-radius: 50%;
+    
+}
+
+.new-year{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    padding-left: 30px;
+}
+
+.new-year p{
+    margin:20px 0
+}
+
+
+/* sale section */
+
+.sale{
+    padding: 30px 20px;
+}
+.sale-inner h3{
+color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+text-align: center;
+    
+}
+.sale-inner h1{
+color: #000;
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+margin: 20px 0;
+
+}
+
+.sale-inner span{
+color: #F00;
+
+}
+
+.sale-inner p{
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+
+
+}
+.sale{
+    width: 100%;
+   
+}
+
+.sale-discount{
+    background-image: url(../resources/images/red_mod.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+    border-radius: 15px
+}
+
+.sale-discount .image-2{
+    /* z-index: -10; */
+    /* background-color: red !important; */
+    height: 80%;
+
+}
+.sale-discount .image-3{
+  position: absolute;
+  right: 23%;
+  top: 5%;
+}
+
+/* portfolio section */
+
+.portfolio{
+}
+.portfolio-content{
+    padding-left: 20px;
+}
+
+.portfolio-content h3{
+color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+    
+}
+.portfolio-content h2{
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin: 20px 0;
+
+}
+.portfolio-content p{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+width: 80%;
+}
+
+.portfolio-image{
+    gap: 4%;
+    width: 80vw;
+    margin-top: 20px;
+    
+}
+
+.image-wrap{
+    width: 32%;
+    float: left;
+    padding: 5px;
+}
+
+.image-wrap img{
+    width: 100%;
+}
+
+/* newsletter section */
+
+
+.newsletter-content{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}
+.newsletter-content h2{ 
+color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin: 20px 0;
+}
+.newsletter-content p{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+margin-bottom: 20px;
+
+}
+
+.newsletter-content input{
+    width:600px;
+    height: 30px;
+}
+.newsletter-content button{
+    color: white;
+    background-color: #F00;
+    padding: 9px 20px;
+    border-radius: 0 25px 25px 0px;
+    margin-left: -5px;
+    border: none;
+    
+}
+
+.newsletter img{
+    margin-top: 0px;
+}
+
+/* footer section */
+footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.footer-inner{
+    width: 80vw;
+    margin: auto;
+
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.address{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+display: flex;
+align-items: center;
+
+}
+
+.mobile{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px; 
+}
+
+.footer-middle{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+padding: 20px 0;
+}
 
 
