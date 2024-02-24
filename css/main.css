@@ -203,7 +203,6 @@ width: 100%;
 
 .offer{
     display: flex;
-    gap: 20px;
     margin: 30px 0;
 }
 
@@ -239,11 +238,14 @@ line-height: 32px;
 
 }
 
-.offer-image{
-    width: 30%;
-    padding: 20px;
+.offer-image img{
     border: 5px solid red;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
     
 }
 
@@ -323,14 +325,31 @@ line-height: 32px;
 }
 .sale-discount .image-3{
   position: absolute;
-  right: 23%;
+  right: 27%;
   top: 5%;
 }
 
+
+.sale-discount-left{
+    width: 60%;
+
+}
+
+.sale-discount-left img{
+    width: 100%;
+
+}
+
+.sale-discount-right{
+    width: 40%;
+    z-index: -12;
+}
+.sale-discount-right img{
+    width: 100%;
+}
 /* portfolio section */
 
-.portfolio{
-}
+
 .portfolio-content{
     padding-left: 20px;
 }
